@@ -1,0 +1,31 @@
+.uiv-button-wrorq {
+  font-size: 17px;
+  font-weight: bold;
+  padding: unset;
+  margin: unset;
+  border: none;
+  border-radius: var(--uiv-button-wrorq-radius);
+  background: var(--uiv-button-wrorq-outline-color);
+}
+
+.uiv-button-wrorq .button-top {
+  display: block;
+  box-sizing: border-box;
+  border: 2px solid var(--uiv-button-wrorq-outline-color);
+  border-radius: var(--uiv-button-wrorq-radius);
+  padding: 0.75em 1.5em;
+  background: var(--uiv-button-wrorq-color);
+  color: var(--uiv-button-wrorq-outline-color);
+  transform: translateY(-0.2em);
+  transition: transform 0.1s ease;
+}
+
+.uiv-button-wrorq:hover .button-top {
+  /* Pull the button upwards when hovered */
+  transform: translateY(-0.33em);
+}
+
+.uiv-button-wrorq:active .button-top {
+  /* Push the button downwards when pressed */
+  transform: translateY(0);
+}

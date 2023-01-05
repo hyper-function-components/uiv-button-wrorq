@@ -1,0 +1,11 @@
+model Attr {
+  text: String
+}
+
+model Event {
+  onClick: {}
+}
+
+model Slot {
+  default: {}
+}
